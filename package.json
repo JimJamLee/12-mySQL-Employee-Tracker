@@ -1,0 +1,23 @@
+{
+  "name": "12-mysql-employee-tracker",
+  "version": "1.0.0",
+  "description": "A command-line application used to manage a company's employee database, using Node.js, Inquirer, and MySQL.",
+  "main": "index.js",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3",
+    "express": "^4.18.1",
+    "console.table": "0.10.0",
+    "dotenv":"16.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimJamLee/12-mySQL-Employee-Tracker.git"
+  },
+  "author": "James Li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JimJamLee/12-mySQL-Employee-Tracker/issues"
+  },
+  "homepage": "https://github.com/JimJamLee/12-mySQL-Employee-Tracker#readme"
+}
