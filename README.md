@@ -33,7 +33,7 @@ THEN I am prompted to select an employee to update and their new role and this i
 ```
 
 
-## General info
+## General Info
 
 Developers frequently have to create interfaces that allow non-developers to easily view and interact with information stored in databases. These interfaces are called content management systems (CMS). This is a command-line application from used to manage a company's employee database, using Node.js, Inquirer, and MySQL.
 
@@ -53,3 +53,8 @@ Developers frequently have to create interfaces that allow non-developers to eas
 ## Application Functionality
 
 The following video demos the functionality of this application:
+
+![James Li Employee Tracker](./assets/12-mysql-employee-tracker-demo-gif.gif)
+
+Link to the video demo:
+https://drive.google.com/file/d/1E9nT26YegJrk55Ysq1STNUE7hTyrmnjl/view
