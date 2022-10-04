@@ -10,6 +10,8 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
+
+// Starting function when the application is run. Inquirer prompt to select an action then based on selection, to run a specific function.
 const dbAction = () => {
     inquirer.prompt ([
         {
@@ -55,15 +57,6 @@ const dbAction = () => {
 }
 
 dbAction();
-
-// Default response for any other request 
-// app.use((req, res) => {
-//     res.status(404).end;
-// });
-
-// app.listen(PORT, () => {
-//     console.log(`Server is running on port ${PORT}`);
-// });
 
 
 module.exports = dbAction;

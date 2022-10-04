@@ -3,7 +3,7 @@ const sqlQuery = require("./index");
 const cTable = require("console.table");
 const db = require('./index');
 
-
+// View all employees
 function viewAllEmployees() {
     const dbAction = require("../server");
     db.allEmployees()
@@ -15,6 +15,8 @@ function viewAllEmployees() {
         .then(() => dbAction());
 }
 
+
+// View all company roles
 function viewAllRoles() {
     const dbAction = require("../server");
     db.allRoles()
@@ -26,6 +28,8 @@ function viewAllRoles() {
         .then(() => dbAction());
 }
 
+
+// View all company departments
 function viewAllDepartments() {
     const dbAction = require("../server");
     db.allDepartments()
@@ -38,7 +42,7 @@ function viewAllDepartments() {
 }
 
 
-// Add an employee
+// Add a new employee
 function addNewEmployee() {
     const dbAction = require("../server");
     inquirer.prompt([
@@ -111,7 +115,7 @@ function addNewEmployee() {
 
 
 
-// Add a role
+// Add a new role
 function addNewRole() {
     const dbAction = require("../server");
     db.allDepartments()
@@ -147,7 +151,7 @@ function addNewRole() {
 }
 
 
-// Add a department
+// Add a new department
 function addNewDept() {
     const dbAction = require("../server");
     inquirer.prompt([
@@ -165,7 +169,7 @@ function addNewDept() {
 }
 
 
-// Update an employee's role
+// Update an existing employee's role
 function updateRole() {
     const dbAction = require("../server");
     
